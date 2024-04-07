@@ -149,4 +149,5 @@ Feedstock Maintainers
 
 * [@karpetrosyan](https://github.com/karpetrosyan/)
 * [@parkerhancock](https://github.com/parkerhancock/)
+* [@xhochy](https://github.com/xhochy/)
 
