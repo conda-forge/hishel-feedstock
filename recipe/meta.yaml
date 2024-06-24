@@ -24,6 +24,7 @@ requirements:
   run:
     - python >=3.8
     - httpx >=0.22.0
+    - typing-extensions >=4.8.0
 
 test:
   imports:
