@@ -1,5 +1,5 @@
 {% set name = "hishel" %}
-{% set version = "0.0.33" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hishel-{{ version }}.tar.gz
-  sha256: ab5b2661d5e2252f305fd0fb20e8c76bfab3ea73458f20f2591c53c37b270089
+  sha256: 1f6421b78cc23fc43c610f651b7848c9b8eee2d29551d64a2ab0d45b319b6559
 
 
 build:
