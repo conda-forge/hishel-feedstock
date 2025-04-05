@@ -11,7 +11,7 @@ Summary: Persistent cache implementation for httpx and httpcore
 
 Development: https://github.com/karpetrosyan/hishel
 
-Documentation: https://hishel.com
+Documentation: https://hishel.com/
 
 Current build status
 ====================
