@@ -1,5 +1,5 @@
 {% set name = "hishel" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hishel-{{ version }}.tar.gz
-  sha256: 1f6421b78cc23fc43c610f651b7848c9b8eee2d29551d64a2ab0d45b319b6559
+  sha256: 6643450bfb1cfa2ecd6002769f6f5069d0d048c9c1f1e29a98a48302d5875092
 
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
