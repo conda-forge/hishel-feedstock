@@ -23,8 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - httpx >=0.22.0
-    - typing-extensions >=4.8.0
+    - httpx >=0.28.0
 
 test:
   imports:
