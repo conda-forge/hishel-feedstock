@@ -7,7 +7,7 @@
 
 [project]
 name = "hishel-feedstock"
-version = "3.47.1"  # conda-smithy version used to generate this file
+version = "3.50.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/hishel-feedstock"
 authors = ["@conda-forge/hishel"]
 channels = ["conda-forge"]
