@@ -151,6 +151,3 @@ Feedstock Maintainers
 * [@parkerhancock](https://github.com/parkerhancock/)
 * [@xhochy](https://github.com/xhochy/)
 
-
-<!-- dummy commit to enable rerendering -->
-
