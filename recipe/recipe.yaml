@@ -25,7 +25,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - httpx >=0.28.0
+    - msgpack-python >=1.1.2
+    - typing-extensions >=4.14.1
 
 tests:
   - python:
