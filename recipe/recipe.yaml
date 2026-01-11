@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: hishel
-  version: "1.1.7"
+  version: "1.1.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/hishel-${{ version }}.tar.gz
-  sha256: 32c625be581e94dc50b773a8cfb9a65cba487660561950fe976ae49945455179
+  sha256: bcd15ad282bd530e97a676b2d16a58e5034750e8a6955e77babfea69fc5b4ad8
 
 build:
   number: 0
