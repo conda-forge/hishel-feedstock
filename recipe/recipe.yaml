@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: hishel
-  version: "1.4.0"
+  version: 2.0.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/hishel-${{ version }}.tar.gz
-  sha256: e406b052c658ce28629fc31423b9914b637d47d7c923f5fe9e288ec47e4823d1
+  sha256: f043c88acf9b476fdbf203986253cd4e27e2468a3319b43c3946a641e1cb7696
 
 build:
   number: 0
@@ -25,8 +25,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - msgpack-python >=1.1.2
-    - typing_extensions >=4.14.1
+    - msgpack-python >=1.2.2
+    - typing_extensions >=4.16.0
 tests:
   - python:
       imports:
